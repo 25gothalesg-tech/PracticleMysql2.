@@ -1,0 +1,11 @@
+CREATE TABLE  IF NOT EXISTS CERTIFICATE (
+	name  VARCHAR(50),
+    subject VARCHAR(50),
+    marks INTEGER NOT NULL
+);
+
+INSERT INTO CERTIFICATE
+VALUES ('Parnika', 'sales', 85),
+ ('Khushboo', 'sales', 90);
+
+SELECT * FROM CERTIFICATE;
