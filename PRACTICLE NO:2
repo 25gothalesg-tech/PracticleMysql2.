@@ -2,10 +2,11 @@ CREATE TABLE  IF NOT EXISTS CERTIFICATE (
 	name  VARCHAR(50),
     subject VARCHAR(50),
     marks INTEGER NOT NULL
+    PRIMARY KEY (marks)
 );
 
 INSERT INTO CERTIFICATE
-VALUES ('Parnika', 'sales', 85),
+VALUES ('Vanshika', 'sales', NULL),
  ('Khushboo', 'sales', 90);
 
 SELECT * FROM CERTIFICATE;
